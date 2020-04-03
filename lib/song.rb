@@ -64,6 +64,7 @@ class Song
      song.name = name
      song.artist_name = artist_name
      song.save
+     return song
   end
 
 end
