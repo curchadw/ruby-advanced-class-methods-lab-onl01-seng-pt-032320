@@ -67,7 +67,7 @@ class Song
      return song
   end
   
-  def self.create_from_filename(filename)
+  def self.create_from_filename(file)
     
     self.save
   end
