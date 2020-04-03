@@ -3,8 +3,7 @@ require 'pry'
 class Song
   attr_accessor :name, :artist_name
   @@all = []
-  
-  def ini
+
   
   def self.create
     song = Song.new #initializes song
@@ -69,4 +68,4 @@ class Song
 
 end
 
-end
+
