@@ -46,7 +46,7 @@ class Song
     self.class.all << self
   end
   
-  def self.alphabetical #iterate throuh @@all and sort
+  def self.alphabetical #iterate through @@all and sort
     self.all.sort_by do |song|
       song.name
     end
