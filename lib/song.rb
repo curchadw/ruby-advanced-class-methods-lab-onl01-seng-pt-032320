@@ -61,14 +61,12 @@ class Song
     
      artist_name = song_arr[0] #assigned first index to artist_name
      name = song_arr[1].gsub(".mp3", "") #assigned second #gsub---> global substituion index to song_name
-   
      song = self.new
      song.name = name
      song.artist = artist_name
      song.save
-    
-     
-    
   end
+
+end
 
 end
